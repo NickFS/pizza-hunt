@@ -69,5 +69,6 @@ const handlePizzaSubmit = event => {
     });
 };
 
+
 $pizzaForm.addEventListener('submit', handlePizzaSubmit);
 $addToppingBtn.addEventListener('click', handleAddTopping);
